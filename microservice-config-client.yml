@@ -3,7 +3,7 @@ server:
 spring:
   profiles: dev   #开发环境
   application:
-    name: microservice-config-client6
+    name: microservice-config-client4
 ---
 server:
   port: 8202
