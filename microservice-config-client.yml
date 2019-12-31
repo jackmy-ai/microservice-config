@@ -3,19 +3,11 @@ server:
 spring:
   profiles: dev   #开发环境
   application:
-    name: microservice-config-client
-eureka:
-  client: 
-    service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+    name: microservice-config-client1
 ---
 server:
   port: 8202
 spring:
   profiles: test   #测试环境
   application:
-    name: microservice-config-client
-eureka:
-  client: #客户端注册进eureka服务列表内
-    service-url:
-      defaultZone: http://eureka-test.com:7001/eureka/   
+    name: microservice-config-client2
